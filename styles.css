@@ -45,6 +45,10 @@ select {
   font: inherit;
 }
 
+a {
+  color: inherit;
+}
+
 /* ### UTILITY CLASSES ### */
 
 .text-accent {
@@ -55,6 +59,8 @@ select {
 
 h1 {
   font-family: "norsebold";
+  font-size: 5rem;
+  font-weight: normal;
 }
 
 /* ### SIGN UP FORM ### */
@@ -71,4 +77,32 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.title-container {
+  margin-top: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56));
+  padding: 1rem;
+  width: 100%;
+}
+
+.title-container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.odin-icon {
+  width: 80px;
+  height: auto;
+}
+
+.bg-credit {
+  margin-top: auto;
 }
