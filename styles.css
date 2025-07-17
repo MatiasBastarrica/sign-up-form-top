@@ -45,6 +45,12 @@ select {
   font: inherit;
 }
 
+/* ### UTILITY CLASSES ### */
+
+.text-accent {
+  color: var(--accent-clr);
+}
+
 /* ### */
 
 h1 {
