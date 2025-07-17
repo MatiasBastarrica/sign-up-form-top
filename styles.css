@@ -106,7 +106,7 @@ h1 {
 }
 
 .odin-icon {
-  width: 80px;
+  width: 100px;
   height: auto;
 }
 
@@ -208,13 +208,13 @@ h1 {
   cursor: pointer;
 }
 
-.content-section p:last-child {
+.content-section p.cta-alt {
   margin-top: 1.5rem;
   margin-inline-start: 2.5rem;
   font-size: 0.875rem;
 }
 
-.content-section p:last-child a {
+.content-section p.cta-alt a {
   text-decoration: none;
   font-weight: bold;
 }
