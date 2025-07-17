@@ -6,6 +6,15 @@
   font-style: normal;
 }
 
+/* ### CUSTOM PROPERTIES ### */
+
+:root {
+  --accent-clr: #596d48;
+  --input-default-clr: #e5e7eb;
+}
+
+/* ### */
+
 h1 {
   font-family: "norsebold";
 }
